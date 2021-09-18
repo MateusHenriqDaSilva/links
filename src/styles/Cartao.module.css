@@ -1,0 +1,65 @@
+.cartao {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    background: #f7ffb1;
+    padding: 0px;
+    color: black;
+    border-radius: 10px;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.cartao:hover {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    background: #f7ffb1;
+    padding: 0px;
+    color: black;
+    border-radius: 10px;
+    margin: 10px;
+    width: 250px;
+}
+
+.titulo {
+    display: flex;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    padding: 0px 0px 0px 4px;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+.imagem {
+    display: flex;
+    margin: 0;
+    cursor: pointer;
+    border: 5px solid red;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.botaoPersonalizado {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+    justify-content: flex-end;
+    bottom: 20px;
+    right: 20px;
+    flex: 1;
+    border-radius: 10px;
+}

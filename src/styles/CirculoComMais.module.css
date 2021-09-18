@@ -1,0 +1,30 @@
+.layout {
+    display: flex;
+    margin: 0;
+    border: 2px solid white;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    box-shadow: 1px 1px 0px white;
+    cursor: pointer;
+}
+
+.tracoHorizontal {
+    display: flex;
+    background: white;
+    padding: 1px 0px;
+    width: 33px;
+}
+
+.tracoVertical {
+    display: flex;
+    position: absolute;
+    background: white;
+    padding: 0px 1px;
+    height: 26px;
+    align-items: center;
+    justify-content: center;
+}
